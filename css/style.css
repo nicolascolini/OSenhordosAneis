@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    background-color: rgb(122, 79, 65);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    height: 60px;
+    margin: 60px;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(100, 89, 73);
+}
+
+.banner {
+    background-image: url('https://www.elhombre.com.br/wp-content/uploads/2021/06/73331-new_line-768x432.jpg');
+ background-size: cover;
+            height: 700px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding-top: 120px;
+            padding: 50px;
+            font-size: 24px;
+    }
+
+    section {
+        background-color:  rgb(38, 116, 119);
+        border: 30px solid transparent;
+    }
+
+    img {
+        max-width: 35%;
+    }
+
+    @media (max-width: 768px) {
+
+      }
+    
+      #Enredo:hover, #Cast:hover, #Fotos:hover, #Recepção:hover, #TrilhaSonora:hover, #Historia:hover {
+        color: white; 
+    }
+    
+    header nav ul {
+        background-color: rgb(33, 83, 85);
+        padding: 10px 0;
+    }
+    
+    header nav ul li a {
+        color: white;
+    }
+    
